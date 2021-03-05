@@ -365,26 +365,52 @@
 				<!-- Footer -->
 					<footer id="footer">
 						<section>
-							<form method="post" action="#">
+							<script src="assets/js/jquery.min.js"></script>
+							<script type="text/javascript">var submitted=false;</script>
+							<script type="text/javascript">
+
+							function sendMessage () {
+								form = document.getElementById("gform");
+								
+								form.submit();
+								form.reset();
+								form.prepend("Your Message Has Been Sent !!");
+								form.buttonMessage.disabled = true;
+								//form.reset()
+								//return true;
+								// btn1 = document.getElementById("buttonMessage");
+								// btn2 = document.getElementById("buttonMessage2");
+								// btn1.hide()
+								// btn2.show()
+								
+							}
+							</script>
+
+							<form name="gform" id="gform" action="https://docs.google.com/forms/d/1g7BvOx6-bMh6ljmIKYpFyTNqh67mpMINHPhOrkFyMfI/formResponse" target="hidden_iframe" onsubmit="submitted=true;">
 								<div class="fields">
 									<div class="field">
 										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
+										<input type="text" name="entry.1068516457" id="entry.1068516457" />
 									</div>
 									<div class="field">
 										<label for="email">Email</label>
-										<input type="text" name="email" id="email" />
+										<input type="text" name="entry.614670300" id="entry.614670300" />
 									</div>
 									<div class="field">
 										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="3"></textarea>
+										<textarea name="entry.432799513" id="entry.432799513" rows="3"></textarea>
 									</div>
 								</div>
 								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
+									
+									<li><input type="button" name="buttonMessage" id="buttonMessage" value="Send Message"  onclick="sendMessage()" /></li>
 								</ul>
 							</form>
+							<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+
+							
 						</section>
+
 						<section class="split contact">
 							<section class="alt">
 								<h3>Address</h3>
