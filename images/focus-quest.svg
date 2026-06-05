@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-labelledby="title desc">
+  <title id="title">Focus Quest project thumbnail</title>
+  <desc id="desc">Gamified task dashboard with XP cards and progress charts.</desc>
+  <defs>
+    <linearGradient id="fq-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1f2937"/>
+      <stop offset="1" stop-color="#4c1d95"/>
+    </linearGradient>
+    <linearGradient id="fq-accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2563eb"/>
+      <stop offset="1" stop-color="#7c3aed"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="560" fill="url(#fq-bg)"/>
+  <rect x="96" y="74" width="708" height="412" rx="24" fill="#f8fafc"/>
+  <rect x="96" y="74" width="174" height="412" rx="24" fill="#111827"/>
+  <text x="132" y="136" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">Focus</text>
+  <text x="132" y="176" fill="#c4b5fd" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">Quest</text>
+  <rect x="132" y="224" width="92" height="12" rx="6" fill="#7c3aed"/>
+  <rect x="132" y="258" width="112" height="12" rx="6" fill="#475569"/>
+  <rect x="132" y="292" width="86" height="12" rx="6" fill="#475569"/>
+  <text x="318" y="134" fill="#111827" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">Task Completion Dashboard</text>
+  <rect x="318" y="174" width="132" height="96" rx="14" fill="url(#fq-accent)"/>
+  <rect x="474" y="174" width="132" height="96" rx="14" fill="#ecfeff"/>
+  <rect x="630" y="174" width="132" height="96" rx="14" fill="#eef2ff"/>
+  <text x="342" y="214" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="18">Today XP</text>
+  <text x="342" y="248" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">120</text>
+  <text x="498" y="214" fill="#155e75" font-family="Arial, Helvetica, sans-serif" font-size="18">Tasks</text>
+  <text x="498" y="248" fill="#155e75" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">8</text>
+  <text x="654" y="214" fill="#3730a3" font-family="Arial, Helvetica, sans-serif" font-size="18">Streak</text>
+  <text x="654" y="248" fill="#3730a3" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">14</text>
+  <rect x="318" y="312" width="444" height="114" rx="16" fill="#ffffff" stroke="#e5e7eb" stroke-width="3"/>
+  <path d="M352 390l62-42 76 24 68-54 78 36 84-72" fill="none" stroke="#7c3aed" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

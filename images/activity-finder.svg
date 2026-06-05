@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-labelledby="title desc">
+  <title id="title">Activity Finder project thumbnail</title>
+  <desc id="desc">Natural language activity search interface with event results.</desc>
+  <defs>
+    <linearGradient id="af-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#153f57"/>
+      <stop offset="1" stop-color="#2b7a78"/>
+    </linearGradient>
+    <linearGradient id="af-card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#edf7f5"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="560" fill="url(#af-bg)"/>
+  <circle cx="730" cy="95" r="62" fill="#f4d35e" opacity="0.9"/>
+  <circle cx="142" cy="458" r="88" fill="#4ecdc4" opacity="0.24"/>
+  <rect x="120" y="108" width="660" height="344" rx="18" fill="url(#af-card)"/>
+  <text x="174" y="178" fill="#153f57" font-family="Arial, Helvetica, sans-serif" font-size="44" font-weight="700">ActivityFinder AI</text>
+  <rect x="174" y="218" width="552" height="62" rx="31" fill="#e4efed"/>
+  <text x="214" y="258" fill="#2d4f5b" font-family="Arial, Helvetica, sans-serif" font-size="24">Yoga classes this weekend</text>
+  <rect x="174" y="316" width="244" height="72" rx="12" fill="#ffffff" stroke="#b9d7d2" stroke-width="3"/>
+  <rect x="456" y="316" width="270" height="72" rx="12" fill="#ffffff" stroke="#b9d7d2" stroke-width="3"/>
+  <text x="202" y="358" fill="#153f57" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">Ranked Events</text>
+  <text x="484" y="358" fill="#153f57" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">AI Summary</text>
+  <path d="M205 415h488" stroke="#2b7a78" stroke-width="8" stroke-linecap="round"/>
+  <path d="M205 438h360" stroke="#88c7c1" stroke-width="8" stroke-linecap="round"/>
+</svg>
