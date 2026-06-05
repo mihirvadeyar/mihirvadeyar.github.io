@@ -3849,6 +3849,22 @@ input, select, textarea {
 					margin: 0;
 				}
 
+				/* Ensure unordered lists in project details (Experience) have no bullets */
+				#experience .project-details ul,
+				#experience .project-details ul li {
+					list-style: none;
+					margin-left: 0;
+					padding-left: 0;
+				}
+
+				/* Make sure project-details content is left-aligned (overrides featured centering) */
+				#main .project-details,
+				#main .project-details p,
+				#main .project-details ul,
+				#main .project-details ul li {
+					text-align: left;
+				}
+
 			#main .skill-list {
 				display: -moz-flex;
 				display: -webkit-flex;
