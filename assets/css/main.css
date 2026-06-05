@@ -3753,6 +3753,8 @@ input, select, textarea {
 
 		}
 
+/* (Navigation fixed-on-scroll styles removed to restore original behavior) */
+
 /* Main */
 
 	#main {

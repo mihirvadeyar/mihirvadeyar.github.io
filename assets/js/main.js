@@ -256,3 +256,5 @@
 		}
 
 })(jQuery);
+
+// (Navigation fixed-on-scroll removed to restore original behavior)
